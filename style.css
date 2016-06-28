@@ -1,0 +1,116 @@
+body {
+    background-color: #fc3;
+    color: #333;
+}
+
+body#idClassPage {
+    background-color: white;
+    font-size: 18px;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Georgia, Times, serif;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+ol {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* Styles for the ID & Class lecture */
+
+#main-title {
+    color: #fc3;
+    background: #353535;
+    padding: 10px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.sectionHeader {
+    color: olive;
+    border: solid 1px pink;
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* Styles for the Descendent Selector lecture */
+
+.primary-box {
+    background-color: white;
+    border: solid 10px #333;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.primary-box h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.secondary-box {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Descendent */
+.secondary-box p {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.Secondary-box p em {
+    color: #fc3fc3;
+}
+
+/* Styles for the Grouping Selector lecture */
+
+#mainContainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.primary-box, .secondary-box {
+    margin: 30px 20px;
+}
+
+.inside-box {
+    border: solid 1px black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    border-bottom: solid 3px red;
+    padding: 0 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
