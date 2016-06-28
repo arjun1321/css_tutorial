@@ -1,0 +1,26 @@
+/* Background Images Lecture */
+
+.background-example {
+    height: 300px;
+    width: 300px;
+    border: solid 1px white;
+}
+
+#background-1 {
+    /* By default, background images repeat X & Y, and are postion top left */
+    background-image: url(images/image1.jpg);
+}
+
+#background-2 {
+    background-color: #a3d;
+}
+
+#background-3 {
+    background-image: url(images/image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#background-4 {
+    background:#ccc url(images/image2.jpg) bottom left repeat-x;
+}
