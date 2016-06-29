@@ -185,6 +185,200 @@ a#link-1:active {
 
 
 
+/* Styling Web Forms Lecture */
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 40px;
+}
+
+fieldset {
+    padding: 40px;
+    border: solid 1px #aaa;
+    background-color: deepskyblue;
+}
+
+fieldset legend {
+    background: white;
+    padding: 10px;
+    border: solid 1px #aaa;
+}
+
+input[type="text"],
+input[type="tel"], 
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin: 0 0 20px;
+    border: solid 1px #454545;
+    display: block;
+    width: 50%;
+    font-size: 14px;
+    color: #777;
+    font-family: Monaco, monospace;
+    text-transform: uppercase;
+    resize: none;
+}
+
+label {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: brown;
+    display: block;
+    width: 50%;
+    padding: 2%;
+    color: white;
+}
+
+input[type="submit"] {
+    background: none;
+    background-color: aqua;
+    height: 40px;
+    border: solid 1px #777;
+    padding: 0 40px;
+    
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    border-color: #444;
+}
+
+input[type="submit"]:active {
+    border-color: #111;
+    outline-color: red;
+}
+
+
+/* CSS Floats */
+
+#floats {
+    background: #d41;
+}
+
+#floats #container {
+    background: white;
+    padding: 20px;
+}
+
+#arjun1 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 0 0 10px 20px; 
+}
+
+#box1 {
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: right;
+}
+
+#mainColumn {
+    width: 250px;
+    float: left;
+    background: #555;
+    color: white;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+#sidebar {
+    width: 140px;
+    float: right;
+    background: #fc3;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    clear: both;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#paragraph {
+    clear: right;
+}
+
+/* Positioning */
+
+#positioning {
+    background: #1b4e5e;
+}
+
+#positioning #container {
+    background: white;
+    padding: 20px;
+    height: 2000px;
+    position: relative; /*making this container as parent of absolute box */
+}
+
+#positioning h2 {
+    font-size: 18px;
+}
+
+.box {
+    background: #db4e3e;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 200px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
