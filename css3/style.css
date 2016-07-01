@@ -1,0 +1,52 @@
+#box {
+    background: red;
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+/* colors */
+
+body#colors {
+    background: rgba(25,52,84,1);
+    color: white;
+}
+
+#colors #container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.6);
+}
+
+#colors #box {
+/*
+    background: linear-gradient(to left, blue,yellow);
+    background: linear-gradient(to bottom, blue,yellow);
+    background: linear-gradient(to top left, blue,yellow);
+    background: linear-gradient(to bottom left, blue,yellow);
+    background: linear-gradient(90deg, blue,yellow);
+    background: radial-gradient(blue,yellow);
+*/
+    background: radial-gradient(green, yellow, blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
